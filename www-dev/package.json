@@ -1,0 +1,15 @@
+{
+	"name": "NAZEV",
+	"version": "0.0.1",
+	"dependencies": {
+		"grunt-contrib-concat": "latest",
+		"grunt-contrib-uglify": "latest",
+		"grunt-contrib-less": "latest",
+		"grunt-contrib-watch": "latest",
+		"grunt-autoprefixer": "latest",
+		"grunt-contrib-copy": "latest",
+		"grunt-notify": "latest",
+		"grunt-hashres": "latest",
+		"grunt-ftpush": "latest"
+	}
+}

@@ -1,0 +1,53 @@
+/**
+ * Mixins
+ */
+
+
+// Mixin pro sprite s podporou zařízení s vysokým rozlišením. Použití např. ".sprite(-194px, -81px);"
+.sprite-image(@x, @y) {
+	background: url(../img/sprite.png) no-repeat @x @y;
+	@media only screen and (min-device-pixel-ratio: 2),
+	only screen and (-webkit-min-device-pixel-ratio: 2),
+	only screen and (-moz-min-device-pixel-ratio: 2),
+	only screen and (-o-min-device-pixel-ratio: 2/1) {
+		background-image: url(../img/sprite@2x.png);
+		background-size: 640px 440px;
+	}
+}
+// .jumbotron { .retina-image("/img/bg-1x.png", "/img/bg-2x.png", 100px, 100px); }
+.retina-image(@file-1x, @file-2x, @width-1x, @height-1x) {
+	background-image: url("@{file-1x}");
+	@media only screen and (-webkit-min-device-pixel-ratio: 2),
+	only screen and (min--moz-device-pixel-ratio: 2),
+	only screen and (-o-min-device-pixel-ratio: 2/1),
+	only screen and (min-device-pixel-ratio: 2),
+	only screen and (min-resolution: 192dpi),
+	only screen and (min-resolution: 2dppx) {
+		background-image: url("@{file-2x}");
+		background-size: @width-1x @height-1x;
+	}
+}
+
+// Mixin pro border-radius. Použití ".border-radius (5px);".
+.border-radius(@radius) {
+	-moz-border-radius: @radius;
+	-webkit-border-radius: @radius;
+	-khtml-border-radius: @radius;
+	border-radius: @radius;
+}
+
+// Druhý Mixin pro border-radius s definicí jednotlivých rohů. Použití např. .border_radius (6px, 6px, 6px, 6px);.
+.border-radius-ext(@lt, @rt, @rb, @lb) {
+	-moz-border-radius: @lt @rt @rb @lb;
+	-webkit-border-radius: @lt @rt @rb @lb;
+	-khtml-border-radius: @lt @rt @rb @lb;
+	border-radius: @lt @rt @rb @lb;
+}
+
+.fade-transition(@time) {
+	-webkit-transition: all @time linear;
+	-moz-transition: all @time linear;
+	-ms-transition: all @time linear;
+	-o-transition: all @time linear;
+	transition: all @time linear;
+}

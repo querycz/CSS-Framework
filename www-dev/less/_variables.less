@@ -1,0 +1,21 @@
+/**
+ * Variables
+ */
+
+
+@font-family: Arial, sans-serif;
+@font-size: 16px;
+@line-height: 150%;
+@font: @font-size~"/"@line-height @font-family;
+
+
+// Grid system vars
+@screen-sm-min: 1px; // 1 - 768
+@screen-md-min: 768px; // 768 - 980
+@screen-lg-min: 980px; // 980 - 1200
+
+@grid-columns: 12; // Number of available columns
+@grid-gutter: 10px; // Inner padding on each side of a column to create gutters
+@grid-float-breakpoint: @screen-md-min; // Point at which the floats kick in and horizontally align columns
+@grid-row-bottom-margin: 20px; // Row bottom margin for all screen sizes
+@grid-col-bottom-margin: 20px; // Column bottom margin for screen size < @screen-sm-min
