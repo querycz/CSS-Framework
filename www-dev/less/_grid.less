@@ -1,5 +1,7 @@
 /**
- * Based on Preboot (http://getpreboot.com)
+ * Grid system
+ *
+ * Based on Preboot (http://getpreboot.com/)
  */
 
 
@@ -14,29 +16,6 @@
 	.container {
 		margin: 0 auto;
 		max-width: @screen-lg-min;
-	}
-}
-
-.make-row() {
-	margin: 0 -@grid-gutter @grid-row-bottom-margin -@grid-gutter;
-	.clearfix();
-}
-
-.make-column(@columns) {
-	min-height: 1px;
-	padding: 0 @grid-gutter;
-	box-sizing: border-box;
-	margin-bottom: @grid-col-bottom-margin;
-	@media (min-width: @grid-float-breakpoint) {
-		float: left;
-		margin-bottom: 0;
-		width: percentage(@columns / @grid-columns);
-	}
-}
-
-.make-column-offset(@columns) {
-	@media (min-width: @grid-float-breakpoint) {
-		margin-left: percentage(@columns / @grid-columns);
 	}
 }
 

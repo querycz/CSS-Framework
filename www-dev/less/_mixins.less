@@ -14,7 +14,8 @@
 		background-size: 640px 440px;
 	}
 }
-// .jumbotron { .retina-image("/img/bg-1x.png", "/img/bg-2x.png", 100px, 100px); }
+
+// Usage.jumbotron { .retina-image("/img/bg-1x.png", "/img/bg-2x.png", 100px, 100px); }
 .retina-image(@file-1x, @file-2x, @width-1x, @height-1x) {
 	background-image: url("@{file-1x}");
 	@media only screen and (-webkit-min-device-pixel-ratio: 2),
@@ -28,7 +29,7 @@
 	}
 }
 
-// Mixin pro border-radius. Použití ".border-radius (5px);".
+// Mixin pro border-radius. Usage ".border-radius (5px);".
 .border-radius(@radius) {
 	-moz-border-radius: @radius;
 	-webkit-border-radius: @radius;
@@ -36,18 +37,45 @@
 	border-radius: @radius;
 }
 
-// Druhý Mixin pro border-radius s definicí jednotlivých rohů. Použití např. .border_radius (6px, 6px, 6px, 6px);.
-.border-radius-ext(@lt, @rt, @rb, @lb) {
+// Second border-radius mixin with specific corners  (6px, 6px, 6px, 6px);.
+.border-radius-corners(@lt, @rt, @rb, @lb) {
 	-moz-border-radius: @lt @rt @rb @lb;
 	-webkit-border-radius: @lt @rt @rb @lb;
 	-khtml-border-radius: @lt @rt @rb @lb;
 	border-radius: @lt @rt @rb @lb;
 }
 
-.fade-transition(@time) {
+// Mixin for smooth transition effect between the element attributes
+.transition(@time) {
 	-webkit-transition: all @time linear;
 	-moz-transition: all @time linear;
 	-ms-transition: all @time linear;
 	-o-transition: all @time linear;
 	transition: all @time linear;
+}
+
+// Grid mixin for making a row
+.make-row() {
+	margin: 0 -@grid-gutter @grid-row-bottom-margin -@grid-gutter;
+	.clearfix();
+}
+
+// Grid mixin for making a column
+.make-column(@columns) {
+	min-height: 1px;
+	padding: 0 @grid-gutter;
+	box-sizing: border-box;
+	margin-bottom: @grid-col-bottom-margin;
+	@media (min-width: @grid-float-breakpoint) {
+		float: left;
+		margin-bottom: 0;
+		width: percentage(@columns / @grid-columns);
+	}
+}
+
+// Grid mixin for pushing a column right by n columns via margin
+.make-column-offset(@columns) {
+	@media (min-width: @grid-float-breakpoint) {
+		margin-left: percentage(@columns / @grid-columns);
+	}
 }
