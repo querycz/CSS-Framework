@@ -1,3 +1,8 @@
+/**
+ * Custom layout styles
+ */
+
+
 /** ========== Header ========== */
 .header {
 	height: 200px;
@@ -13,12 +18,12 @@
 
 
 /** ========== Navigation ========== */
-nav {
+.nav {
 	display: none;
 }
 
 @media only screen and (min-width: @screen-md-min) {
-	nav {
+	.nav {
 		display: block;
 		ul {
 			li {
@@ -32,7 +37,20 @@ nav {
 }
 
 
-/** ========== Footer ========== */
+/** ========== Mobile navigation ========== */
+.nav-mobile {
 
+}
+@media only screen and (min-width: @screen-md-min) {
+	.nav-mobile {
+		display: none;
+	}
+}
+
+
+/** ========== Footer ========== */
+.footer {
+
+}
 
 /** ========== Page/section - XXX ========== */
