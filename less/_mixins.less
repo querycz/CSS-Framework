@@ -54,6 +54,15 @@
 	transition: all @time linear;
 }
 
+// Mixin for transform animation
+.transform(@size) {
+	-webkit-transform: scale(@size);
+	-moz-transform: scale(@size);
+	-o-transform: scale(@size);
+	-ms-transform: scale(@size);
+	transform: scale(@size);
+}
+
 // Grid mixin for making a row
 .make-row() {
 	margin: 0 -@grid-gutter @grid-row-bottom-margin -@grid-gutter;
