@@ -1,0 +1,10 @@
+{
+	"name": "CSS-framework",
+	"version": "1.0.0",
+	"dependencies": {
+		"grunt-contrib-less": "latest",
+		"grunt-contrib-watch": "latest",
+		"grunt-autoprefixer": "latest",
+		"grunt-notify": "latest"
+	}
+}
