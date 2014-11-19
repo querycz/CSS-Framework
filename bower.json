@@ -2,6 +2,12 @@
 	"name": "CSS-framework",
 	"version": "1.0.0",
 	"author": "Jiří Šebek (www.query.cz)",
+	"main": "dist/css-framework.min.css",
+	"ignore": [
+	    ".jshintrc",
+	    "**/*.txt",
+	    "*.sublime-project"
+	  ],
 	"dependencies": {
 		"normalize.css": "latest"
 	}
