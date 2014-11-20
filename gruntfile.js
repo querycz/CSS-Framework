@@ -62,7 +62,7 @@ module.exports = function(grunt) {
 				tasks: ['less:style_min', 'less:style', 'autoprefixer:file_min', 'autoprefixer:file', 'notify:notify_less'],
 				options: {
 					spawn: false,
-					livereload: true
+					//livereload: true
 				}
 			}
 		}
