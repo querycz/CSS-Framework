@@ -1,19 +1,8 @@
 /** ==================================================
- *  CSS framework (mobile first CSS/LESS framework)
- *	
- *  Author:			         Jiří Šebek (www.query.cz)
- *  ==================================================
- */
-/** ========== Content ==========
- *  @imports
- *	@font-face
- *	Mixins
- *	Simple reset
- *  Variables
- *  Typography
- *	Basic global
- *  Grid system
- *  Template
+ *	CSS framework (mobile first CSS/LESS framework)
+ *
+ *	Author:			         Jiří Šebek (www.query.cz)
+ *	==================================================
  */
 /** ========== @imports ========== */
 /**
@@ -374,29 +363,6 @@ td,
 th {
   padding: 0;
 }
-/** ========== @font-face ========== */
-/**
- * @font-face
- */
-/**
- * Importované řezy písma Open Sans:
- * - Light 300
- * - Normal 400
- * - Semi-Bold 600
- * - Bold 700
- */
-/** ========== Custom @font-face ========== */
-/*@font-face {
-	font-family: 'Font';
-	src: url('fnt/Font.eot');
-	src: local('☺'),
-		url('fnt/Font.woff') format('woff'),
-		url('fnt/Font.otf') format('opentype'),
-		url('fnt/Font.ttf') format('truetype'),
-		url('fnt/Font.svg#webfont') format('svg');
-	font-weight: normal;
-	font-style: normal;
-}*/
 /** ========== Mixins ========== */
 /**
  * Mixins
@@ -477,7 +443,7 @@ a:hover {
 }
 /** ========== Basic global ========== */
 /**
- * Basic elements, classes and ids
+ * Basic core elements, classes and ids
  */
 html,
 body {
@@ -738,61 +704,3 @@ table {
     width: 100%;
   }
 }
-/** ========== Template ========== */
-/**
- * Custom layout styles
- */
-/** ========== @imports ========== */
-/** ========== @font-face ========== */
-/**
- * Importované řezy písma Open Sans:
- * - Light 300
- * - Normal 400
- * - Semi-Bold 600
- * - Bold 700
- */
-/*@font-face {
-	font-family: 'Font';
-	src: url('fnt/Font.eot');
-	src: local('☺'),
-		url('fnt/Font.woff') format('woff'),
-		url('fnt/Font.otf') format('opentype'),
-		url('fnt/Font.ttf') format('truetype'),
-		url('fnt/Font.svg#webfont') format('svg');
-	font-weight: normal;
-	font-style: normal;
-}*/
-/** ========== Mixins ========== */
-/** ========== Variables ========== */
-/** ========== Basic ========== */
-/** ========== Header ========== */
-.header {
-  height: 200px;
-  background: #ccc;
-}
-.logo {
-  width: 200px;
-  height: 50px;
-  background: red;
-  margin: 10px 0 0 20px;
-}
-/** ========== Navigation ========== */
-.nav {
-  display: none;
-}
-@media only screen and (min-width: 768px) {
-  .nav {
-    display: block;
-  }
-  .nav ul li {
-    display: inline;
-  }
-}
-/** ========== Mobile navigation ========== */
-@media only screen and (min-width: 768px) {
-  .nav-mobile {
-    display: none;
-  }
-}
-/** ========== Footer ========== */
-/** ========== Page/section - XXX ========== */
