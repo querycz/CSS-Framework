@@ -76,7 +76,7 @@
 	box-sizing: border-box;
 	margin-bottom: @grid-col-bottom-margin;
 	
-	@media (min-width: @grid-float-breakpoint) {
+	@media only screen and (min-width: @grid-float-breakpoint) {
 		float: left;
 		margin-bottom: 0;
 		width: percentage(@columns / @grid-columns);
@@ -85,7 +85,7 @@
 
 // Grid mixin for pushing a column right by n columns via margin
 .make-column-offset(@columns) {
-	@media (min-width: @grid-float-breakpoint) {
+	@media only screen and (min-width: @grid-float-breakpoint) {
 		margin-left: percentage(@columns / @grid-columns);
 	}
 }

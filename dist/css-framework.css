@@ -559,7 +559,7 @@ table {
   box-sizing: border-box;
   margin-bottom: 20px;
 }
-@media (min-width: 768px) {
+@media only screen and (min-width: 768px) {
   .col-1 {
     float: left;
     margin-bottom: 0;
@@ -572,7 +572,7 @@ table {
   box-sizing: border-box;
   margin-bottom: 20px;
 }
-@media (min-width: 768px) {
+@media only screen and (min-width: 768px) {
   .col-2 {
     float: left;
     margin-bottom: 0;
@@ -585,7 +585,7 @@ table {
   box-sizing: border-box;
   margin-bottom: 20px;
 }
-@media (min-width: 768px) {
+@media only screen and (min-width: 768px) {
   .col-3 {
     float: left;
     margin-bottom: 0;
@@ -598,7 +598,7 @@ table {
   box-sizing: border-box;
   margin-bottom: 20px;
 }
-@media (min-width: 768px) {
+@media only screen and (min-width: 768px) {
   .col-4 {
     float: left;
     margin-bottom: 0;
@@ -611,7 +611,7 @@ table {
   box-sizing: border-box;
   margin-bottom: 20px;
 }
-@media (min-width: 768px) {
+@media only screen and (min-width: 768px) {
   .col-5 {
     float: left;
     margin-bottom: 0;
@@ -624,7 +624,7 @@ table {
   box-sizing: border-box;
   margin-bottom: 20px;
 }
-@media (min-width: 768px) {
+@media only screen and (min-width: 768px) {
   .col-6 {
     float: left;
     margin-bottom: 0;
@@ -637,7 +637,7 @@ table {
   box-sizing: border-box;
   margin-bottom: 20px;
 }
-@media (min-width: 768px) {
+@media only screen and (min-width: 768px) {
   .col-7 {
     float: left;
     margin-bottom: 0;
@@ -650,7 +650,7 @@ table {
   box-sizing: border-box;
   margin-bottom: 20px;
 }
-@media (min-width: 768px) {
+@media only screen and (min-width: 768px) {
   .col-8 {
     float: left;
     margin-bottom: 0;
@@ -663,7 +663,7 @@ table {
   box-sizing: border-box;
   margin-bottom: 20px;
 }
-@media (min-width: 768px) {
+@media only screen and (min-width: 768px) {
   .col-9 {
     float: left;
     margin-bottom: 0;
@@ -676,7 +676,7 @@ table {
   box-sizing: border-box;
   margin-bottom: 20px;
 }
-@media (min-width: 768px) {
+@media only screen and (min-width: 768px) {
   .col-10 {
     float: left;
     margin-bottom: 0;
@@ -689,7 +689,7 @@ table {
   box-sizing: border-box;
   margin-bottom: 20px;
 }
-@media (min-width: 768px) {
+@media only screen and (min-width: 768px) {
   .col-11 {
     float: left;
     margin-bottom: 0;
@@ -702,7 +702,7 @@ table {
   box-sizing: border-box;
   margin-bottom: 20px;
 }
-@media (min-width: 768px) {
+@media only screen and (min-width: 768px) {
   .col-12 {
     float: left;
     margin-bottom: 0;
