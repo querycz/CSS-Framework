@@ -709,3 +709,64 @@ table {
     width: 100%;
   }
 }
+/** ========== Columns offset ========== */
+@media only screen and (min-width: 768px) {
+  .col-offset-1 {
+    margin-left: 8.33333333%;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .col-offset-2 {
+    margin-left: 16.66666667%;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .col-offset-3 {
+    margin-left: 25%;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .col-offset-4 {
+    margin-left: 33.33333333%;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .col-offset-5 {
+    margin-left: 41.66666667%;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .col-offset-6 {
+    margin-left: 50%;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .col-offset-7 {
+    margin-left: 58.33333333%;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .col-offset-8 {
+    margin-left: 66.66666667%;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .col-offset-9 {
+    margin-left: 75%;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .col-offset-10 {
+    margin-left: 83.33333333%;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .col-offset-11 {
+    margin-left: 91.66666667%;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .col-offset-12 {
+    margin-left: 100%;
+  }
+}
