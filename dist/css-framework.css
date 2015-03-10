@@ -391,56 +391,6 @@ li {
 /**
  * For fixed (non-responsive) layout just 
  */
-/** ========== Typography ========== */
-/**
- * Typography styles
- */
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-weight: bold;
-  line-height: auto;
-}
-h1 {
-  font-size: 26px;
-}
-h2 {
-  font-size: 22px;
-}
-h2 {
-  font-size: 20px;
-}
-h4 {
-  font-size: 18px;
-}
-h5 {
-  font-size: 26px;
-}
-h6 {
-  font-size: 26px;
-}
-p {
-  padding: 0;
-  margin: 20px 0;
-}
-a {
-  color: inherit;
-}
-a:hover {
-  text-decoration: none;
-}
-.text-left {
-  text-align: left;
-}
-.text-right {
-  text-align: right;
-}
-.text-center {
-  text-align: center;
-}
 /** ========== Basic global ========== */
 /**
  * Basic core elements, classes and ids
@@ -779,4 +729,54 @@ table {
   .col-offset-12 {
     margin-left: 100%;
   }
+}
+/** ========== Typography ========== */
+/**
+ * Typography styles
+ */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+  line-height: auto;
+}
+h1 {
+  font-size: 26px;
+}
+h2 {
+  font-size: 22px;
+}
+h2 {
+  font-size: 20px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 26px;
+}
+h6 {
+  font-size: 26px;
+}
+p {
+  padding: 0;
+  margin: 20px 0;
+}
+a {
+  color: inherit;
+}
+a:hover {
+  text-decoration: none;
+}
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
+}
+.text-center {
+  text-align: center;
 }
