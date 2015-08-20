@@ -14,14 +14,14 @@ body {
 	text-align: center;
 	font: @font;
 	color: @font-color;
-	
+
 	/**
 	 * Ošetření pro špatné zobrazovaní opakovaného pozadí
 	 * při menších rozlišení než wrap při fixním layout
 	 * (typicky v patičkách).
 	 */
 	/* min-width: 960px; */
-	
+
 	/**
 	 * Nastavení velikosti fontu pro iOS webkit a MS prohlížeče
 	 * (typicky pro správné velikosti při responsivním layoutu).
@@ -62,7 +62,7 @@ table {
 	tr {
 
 	}
-	
+
 	td {
 
 	}
@@ -82,13 +82,13 @@ table {
 
 .clear-both {
 	clear: both;
-	
+
 	/**
 	 * Někdy dobré doplnit - viz např. "hover bug" v Opeře.
 	 */
 	font-size: 0;
 	line-height: 0;
-	
+
 	/**
 	 * IE 7 mívá problém, ale možno vyřešit obalením do samostatného
 	 * divu např. <div><div class="clear_both"></div></div>.
