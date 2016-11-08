@@ -3,29 +3,30 @@ module.exports = function(grunt) {
 	grunt.initConfig({
 
 
-		// Compile less and minify
-		less: {
+		// Compile SASS and minify
+		sass: {
 			style_min: {
-				files: {
-					'dist/css-framework.min.css': 'less/css-framework.less'
-				},
 				options: {
-					compress: true,
-					relativeUrls: true,
-					yuicompress: true
-				}
+		            sourceMap: false,
+					outputStyle: 'compressed',
+		        },
+		        dist: {
+		            files: {
+		                'dist/css-framework.min.css': 'less/css-framework.less'
+		            }
+		        }
 			},
 			style: {
-				files: {
-					'dist/css-framework.css': 'less/css-framework.less'
-				},
 				options: {
-					compress: false,
-					relativeUrls: true,
-					yuicompress: false
-				}
+		            sourceMap: false
+		        },
+		        dist: {
+		            files: {
+		                'dist/css-framework.css': 'less/css-framework.less'
+		            }
+		        }
 			}
-		},
+	    },
 
 
 		// Autoprefix
@@ -46,9 +47,9 @@ module.exports = function(grunt) {
 
 		// Notify
 		notify: {
-			notify_less: {
+			notify_sass: {
 				options: {
-					title: 'LESS se zkompilovalo na výbornou!',  // Optional
+					title: 'SASS se zkompilovalo na výbornou!',  // Optional
 					message: 'Jsi šikovný borec, jen tak dál!' // Required
 				}
 			}
@@ -58,8 +59,8 @@ module.exports = function(grunt) {
 		// Watch and do
 		watch: {
 			less: {
-				files: ['less/**/*.less'],
-				tasks: ['less:style_min', 'less:style', 'autoprefixer:file_min', 'autoprefixer:file', 'notify:notify_less'],
+				files: ['scss/**/*.scss'],
+				tasks: ['sass:style_min', 'sass:style', 'autoprefixer:file_min', 'autoprefixer:file', 'notify:notify_sass'],
 				options: {
 					spawn: false,
 					//livereload: true
@@ -72,7 +73,7 @@ module.exports = function(grunt) {
 
 
 	// Load tasks
-	grunt.loadNpmTasks('grunt-contrib-less');
+	grunt.loadNpmTasks('grunt-sass');
 	grunt.loadNpmTasks('grunt-contrib-watch');
 	grunt.loadNpmTasks('grunt-autoprefixer');
 	grunt.loadNpmTasks('grunt-notify');

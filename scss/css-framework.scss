@@ -1,5 +1,5 @@
 /** ==================================================
- *	CSS framework (mobile first CSS/LESS framework)
+ *	CSS framework (mobile first CSS/SASS framework)
  *
  *	Author:			         Jiří Šebek (www.query.cz)
  *	==================================================
@@ -7,29 +7,29 @@
 
 
 /** ========== @imports ========== */
-@import "basic/_imports.less";
+@import "basic/_imports";
 
 
 /** ========== Simple reset ========== */
-@import "basic/_reset.less";
+@import "basic/_reset";
 
 
 /** ========== Variables ========== */
-@import "basic/_variables.less";
+@import "basic/_variables";
 
 
 /** ========== Mixins ========== */
-@import "basic/_mixins.less";
+@import "basic/_mixins";
 
 
 /** ========== Basic global ========== */
-@import "basic/_base.less";
+@import "basic/_base";
 
 
 /** ========== Grid system ========== */
-@import "basic/_grid.less";
+@import "basic/_grid";
 
 
 /** ========== Typography ========== */
-@import "basic/_typography.less";
+@import "basic/_typography";
 

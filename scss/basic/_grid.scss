@@ -8,21 +8,21 @@
 /** ========== Container ========== */
 .container {
 	text-align: left;
-	padding: 0 @grid-gutter;
+	padding: 0 $grid-gutter;
 	margin: 0 auto;
 	box-sizing: border-box;
 }
 
-@media only screen and (min-width: @screen-md) {
+@media only screen and (min-width: $screen-md) {
 	.container {
 		margin: 0 auto;
-		max-width: @screen-lg;
+		max-width: $screen-lg;
 	}
 
 	.container-fixed {
 		margin: 0 auto;
 		max-width: none;
-		width: @screen-lg;
+		width: $screen-lg;
 	}
 }
 
