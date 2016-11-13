@@ -12,9 +12,9 @@
 	display: inline-block;
 	cursor: pointer;
 	border: 0;
-	.transition(.2s);
+	@include transition(.2s);
 
 	&:hover {
-		.transition(.2s);
+		@include transition(.2s);
 	}
 }
