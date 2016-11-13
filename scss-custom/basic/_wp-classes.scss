@@ -37,7 +37,7 @@
 .wp-caption-text {
 	font-style: italic;
 	text-align: center;
-	color: @blue;
+	color: red;
 	text-align: center;
 }
 
@@ -74,7 +74,7 @@ img.alignleft {
 		-webkit-margin-start: 0;
 		text-align: center;
 		margin-bottom: 10px;
-		color: @blue;
+		color: red;
 		font-size: 15px;
 		font-style: italic;
 	}
@@ -88,7 +88,7 @@ img.alignleft {
 	}
 }
 
-@media only screen and (min-width: @screen-md) {
+@media only screen and (min-width: $screen-md) {
 	.gallery {
 		br {
 			display: block;
