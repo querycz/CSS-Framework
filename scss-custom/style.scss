@@ -7,7 +7,7 @@
 
 
 /** ========== CONTENT ==========
- *	@imports .............. Eg. component imports like css-framework.less
+ *	@imports .............. Eg. component imports like css-framework.scss
  *	@font-face ............ Eg. Google Fonts
  *	Mixins ................ Extra mixins
  *	Variables ............. Overwrite and custom variables
@@ -24,56 +24,56 @@
 
 
 /** ========== @imports ========== */
-@import "basic/_imports.less";
+@import "basic/_imports";
 
 
 /** ========== @font-face ========== */
-@import "basic/_font-face.less";
+@import "basic/_font-face";
 
 
 /** ========== Variables ========== */
-@import "basic/_variables.less";
+@import "basic/_variables";
 
 
 /** ========== Mixins ========== */
-@import "basic/_mixins.less";
+@import "basic/_mixins";
 
 
 /** ========== Base/core elements ========== */
-@import "basic/_base.less";
+@import "basic/_base";
 
 
 /** ========== Typography ========== */
-@import "basic/_typography.less";
+@import "basic/_typography";
 
 
 /** ========== Forms ========== */
-@import "basic/_forms.less";
+@import "basic/_forms";
 
 
 /** ========== Buttons ========== */
-@import "basic/_buttons.less";
+@import "basic/_buttons";
 
 
 /** ========== WordPress Classes ========== */
-// @import "basic/_wp-classes.less";
+// @import "basic/_wp-classes";
 
 
 /** ========== Modules ========== */
-@import "modules/_header.less";
-@import "modules/_nav.less";
-@import "modules/_nav-mobile.less";
-@import "modules/_nav-mobile-toggle.less";
-@import "modules/_content.less";
-@import "modules/_footer.less";
+@import "modules/_header";
+@import "modules/_nav";
+@import "modules/_nav-mobile";
+@import "modules/_nav-mobile-toggle";
+@import "modules/_content";
+@import "modules/_footer";
 
 
 /** ========== WP General ========== */
-// @import "wp-general/_page.less";
+// @import "wp-general/_page";
 
 
 /** ========== WP Specific ========== */
-// @import "wp-specific/_home.less";
-// @import "wp-specific/_error404.less;
-// @import "wp-specific/_page-id-456.less;
+// @import "wp-specific/_home";
+// @import "wp-specific/_error404;
+// @import "wp-specific/_page-id-456;
 

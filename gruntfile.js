@@ -10,21 +10,17 @@ module.exports = function(grunt) {
 		            sourceMap: false,
 					outputStyle: 'compressed',
 		        },
-		        dist: {
-		            files: {
-		                'dist/css-framework.min.css': 'less/css-framework.less'
-		            }
-		        }
+				files: {
+					'dist/css-framework.min.css': 'scss/css-framework.scss'
+				}
 			},
 			style: {
 				options: {
 		            sourceMap: false
 		        },
-		        dist: {
-		            files: {
-		                'dist/css-framework.css': 'less/css-framework.less'
-		            }
-		        }
+				files: {
+					'dist/css-framework.css': 'scss/css-framework.scss'
+				}
 			}
 	    },
 
@@ -58,7 +54,10 @@ module.exports = function(grunt) {
 
 		// Watch and do
 		watch: {
-			less: {
+			configFiles: {
+				files: ['gruntfile.js']
+			},
+			sass: {
 				files: ['scss/**/*.scss'],
 				tasks: ['sass:style_min', 'sass:style', 'autoprefixer:file_min', 'autoprefixer:file', 'notify:notify_sass'],
 				options: {

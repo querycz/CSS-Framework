@@ -12,8 +12,8 @@ body {
 	margin: 0;
 	padding: 0;
 	text-align: center;
-	font: @font;
-	color: @font-color;
+	font: $font;
+	color: $font-color;
 
 	/**
 	 * Ošetření pro špatné zobrazovaní opakovaného pozadí
@@ -46,7 +46,7 @@ button,
 input,
 select,
 textarea {
-	font: @font;
+	font: $font;
 }
 
 img {

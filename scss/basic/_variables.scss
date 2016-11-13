@@ -22,6 +22,6 @@ $screen-lg: 980px; // Also fixed size of container
 
 $grid-columns: 12; // Number of available columns
 $grid-gutter: 10px; // Inner padding on each side of a column to create gutters
-$grid-float-breakpoint: @screen-md; // Point at which the floats kick in and horizontally align columns
+$grid-float-breakpoint: $screen-md; // Point at which the floats kick in and horizontally align columns
 $grid-row-bottom-margin: 20px; // Row bottom margin for all screen sizes
 $grid-col-bottom-margin: 20px; // Column bottom margin for screen size < @screen-sm
