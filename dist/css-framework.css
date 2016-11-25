@@ -5,6 +5,15 @@
  *	Author:			         Jiří Šebek (www.query.cz)
  *	==================================================
  */
+/** ========== Variables ========== */
+/**
+ * Variables
+ */
+/** ========== General framework variables ========== */
+/** ========== Grid system variables ========== */
+/**
+ * For fixed (non-responsive) layout just
+ */
 /** ========== @imports ========== */
 /**
  * Imports
@@ -379,15 +388,6 @@ li {
   margin: 0;
   padding: 0; }
 
-/** ========== Variables ========== */
-/**
- * Variables
- */
-/** ========== General framework variables ========== */
-/** ========== Grid system variables ========== */
-/**
- * For fixed (non-responsive) layout just
- */
 /** ========== Mixins ========== */
 /**
  * Mixins

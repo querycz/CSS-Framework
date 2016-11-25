@@ -7,10 +7,10 @@
 
 
 /** ========== CONTENT ==========
+ *	Variables ............. Overwrite and custom variables
  *	@imports .............. Eg. component imports like css-framework.scss
  *	@font-face ............ Eg. Google Fonts
  *	Mixins ................ Extra mixins
- *	Variables ............. Overwrite and custom variables
  *	Basic/core elements ... Eg. html, body, also general .classes like clearfix
  *
  *	Header ................ Just the main header
@@ -23,16 +23,16 @@
  */
 
 
+/** ========== Variables ========== */
+@import "basic/_variables";
+
+
 /** ========== @imports ========== */
 @import "basic/_imports";
 
 
 /** ========== @font-face ========== */
 @import "basic/_font-face";
-
-
-/** ========== Variables ========== */
-@import "basic/_variables";
 
 
 /** ========== Mixins ========== */
