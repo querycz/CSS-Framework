@@ -15,6 +15,7 @@ textarea {
 	border: 1px solid #ccc;
 	padding: 5px 10px;
 	box-sizing: border-box;
+	width: 100%;
 }
 
 select {
@@ -25,3 +26,25 @@ select {
 	padding: 5px 10px;
 	box-sizing: border-box;
 }
+
+// .wpcf7 {
+// 	.ajax-loader {
+// 		display: none !important;
+// 	}
+//
+// 	.wpcf7-not-valid-tip {
+// 		font-size: 15px;
+// 		color: red;
+// 	}
+//
+// 	.wpcf7-response-output {
+// 		margin: 0;
+// 		padding: 5px 10px;
+// 	}
+//
+// 	.wpcf7-validation-errors {
+// 		border: 0;
+// 		background: red;
+// 		color: #fff;
+// 	}
+// }
