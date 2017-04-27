@@ -3,6 +3,10 @@
  */
 
 
+/** ========== Custom variables ========== */
+$color: #ff5800;
+
+
 /** ========== General framework variables ========== */
 $font-family: Arial, sans-serif;
 $font-size: 16px;
@@ -27,7 +31,3 @@ $grid-gutter: 10px; // Inner padding on each side of a column to create gutters
 $grid-float-breakpoint: $screen-md; // Point at which the floats kick in and horizontally align columns
 $grid-row-bottom-margin: 20px; // Row bottom margin for all screen sizes
 $grid-col-bottom-margin: 20px; // Column bottom margin for screen size < @screen-sm
-
-
-/** ========== Custom variables ========== */
-$color: #ff5800;
