@@ -1,65 +1,47 @@
-/** ==================================================
- *  PROJECT
+/**
+ * Project
  *
- *  Author:			              Query (www.query.cz)
- *  ==================================================
+ * Author: Query (www.query.cz)
  */
 
 
-/** ========== CONTENT ==========
- *	Variables ............. Overwrite and custom variables
- *	@imports .............. Eg. component imports like css-framework.scss
- *	@font-face ............ Eg. Google Fonts
- *	Mixins ................ Extra mixins
- *	Basic/core elements ... Eg. html, body, also general .classes like clearfix
- *
- *	Header ................ Just the main header
- *	Navigation ............ All kinds of navigations
- *	Content ............... Main content/container
- *	Footer ................ Just the footer
- *
- *	Homepage .............. Only homepage specific styles
- *	Sub-pages ............. Other pages specific styles
- */
-
-
-/** ========== Variables ========== */
+/** Variables */
 @import "basic/_variables";
 
 
-/** ========== @imports ========== */
+/** @imports */
 @import "basic/_imports";
 
 
-/** ========== @font-face ========== */
+/** @font-face */
 @import "basic/_font-face";
 
 
-/** ========== Mixins ========== */
+/** Mixins */
 @import "basic/_mixins";
 
 
-/** ========== Base/core elements ========== */
+/** Base/core elements */
 @import "basic/_base";
 
 
-/** ========== Typography ========== */
+/** Typography */
 @import "basic/_typography";
 
 
-/** ========== Forms ========== */
+/** Forms */
 @import "basic/_forms";
 
 
-/** ========== Buttons ========== */
+/** Buttons */
 @import "basic/_buttons";
 
 
-/** ========== WordPress Classes ========== */
+/** WordPress Classes */
 // @import "basic/_wp-classes";
 
 
-/** ========== Modules ========== */
+/** Modules */
 @import "modules/_header";
 @import "modules/_nav";
 @import "modules/_nav-mobile";
@@ -68,12 +50,12 @@
 @import "modules/_footer";
 
 
-/** ========== WP General ========== */
+/** WP General */
 // @import "wp-general/_page";
 
 
-/** ========== WP Specific ========== */
-// @import "wp-specific/_home";
-// @import "wp-specific/_error404;
-// @import "wp-specific/_page-id-456;
+/** WP Specific */
+// @import "wp-specific/home";
+// @import "wp-specific/error404;
+// @import "wp-specific/page-id-456;
 
