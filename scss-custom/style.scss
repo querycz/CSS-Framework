@@ -52,6 +52,8 @@
 
 /** WP General */
 // @import "wp-general/_page";
+// @import "wp-general/_category";
+// @import "wp-general/_single";
 
 
 /** WP Specific */
@@ -59,3 +61,6 @@
 // @import "wp-specific/error404;
 // @import "wp-specific/page-id-456;
 
+
+/** WP Template */
+// @import "wp-template/template";
