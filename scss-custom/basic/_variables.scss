@@ -3,11 +3,11 @@
  */
 
 
-/** ========== Custom variables ========== */
+/** Custom variables */
 $color: #ff5800;
 
 
-/** ========== General framework variables ========== */
+/** General framework variables */
 $font-family: Arial, sans-serif;
 $font-size: 16px;
 $line-height: 150%;
@@ -18,13 +18,13 @@ $assets: "assets";
 //$assets: "../../../../wp-content/themes/THEME/assets";
 
 
-/** ========== Grid system variables ========== */
+/** Grid system variables */
 /**
  * For fixed (non-responsive) layout just
  */
-$screen-sm: 1px;
+$screen-sm: 375px;
 $screen-md: 768px; // Optimally 767 for portrait display on iPad
-$screen-lg: 980px;
+$screen-lg: 1180px;
 
 $grid-columns: 12; // Number of available columns
 $grid-gutter: 10px; // Inner padding on each side of a column to create gutters
