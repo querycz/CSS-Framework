@@ -2,10 +2,6 @@
 	"name": "css-framework",
 	"version": "2.0.14",
 	"dependencies": {
-		"grunt-sass": "latest",
-		"grunt-contrib-watch": "latest",
-		"grunt-autoprefixer": "latest",
-		"grunt-notify": "latest",
 		"normalize.css": "latest"
 	}
 }
