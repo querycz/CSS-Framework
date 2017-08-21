@@ -1,35 +1,30 @@
-/** ==================================================
- *	CSS framework (mobile first CSS/SASS framework)
+/**
+ * CSS framework (mobile first CSS/SASS framework)
  *
- *	Author:			         Jiří Šebek (www.query.cz)
- *	==================================================
+ * Author: Query (www.query.cz)
  */
 
 
-/** ========== Variables ========== */
+/** Variables */
 @import "basic/_variables";
 
 
-/** ========== @imports ========== */
+/** @imports */
 @import "basic/_imports";
 
 
-/** ========== Simple reset ========== */
+/** Simple reset */
 @import "basic/_reset";
 
 
-/** ========== Mixins ========== */
-@import "basic/_mixins";
-
-
-/** ========== Basic global ========== */
+/** Basic global */
 @import "basic/_base";
 
 
-/** ========== Grid system ========== */
+/** Grid system */
 @import "basic/_grid";
 
 
-/** ========== Typography ========== */
+/** Typography */
 @import "basic/_typography";
 
