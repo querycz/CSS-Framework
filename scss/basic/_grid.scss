@@ -30,6 +30,10 @@
 	display: flex;
 	flex-wrap: wrap;
 	margin: 0 -#{$grid-gutter} $grid-row-bottom-margin -#{$grid-gutter};
+
+	@media only screen and (min-width: $screen-md) {
+		flex-wrap: nowrap;
+	}
 }
 
 .row-no-bottom-margin,
