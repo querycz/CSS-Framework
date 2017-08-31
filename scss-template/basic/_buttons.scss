@@ -2,6 +2,7 @@
  * Button
  */
 
+
 .button {
 	background: #000;
 	color: #fff;
@@ -12,9 +13,9 @@
 	display: inline-block;
 	cursor: pointer;
 	border: 0;
-	@include transition(.2s);
+	transition: .6s;
 
 	&:hover {
-		@include transition(.2s);
+		transform: scale(1.1);
 	}
 }
