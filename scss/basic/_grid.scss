@@ -46,6 +46,7 @@
 .col {
 	width: 100%;
 	box-sizing: border-box;
+	padding: 0 $grid-gutter;
 
 	@media only screen and (min-width: $screen-md) {
 		width: auto;
