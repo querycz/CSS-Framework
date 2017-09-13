@@ -33,10 +33,6 @@
 @import "basic/_buttons";
 
 
-/** WordPress Classes */
-// @import "basic/_wp-classes";
-
-
 /** Modules */
 @import "modules/_header";
 @import "modules/_nav";
@@ -46,17 +42,12 @@
 @import "modules/_footer";
 
 
-/** WP General */
-// @import "wp-general/page";
-// @import "wp-general/category";
-// @import "wp-general/single";
-
-
-/** WP Specific */
-// @import "wp-specific/home";
-// @import "wp-specific/error404;
-// @import "wp-specific/page-id-456;
-
-
-/** WP Template */
-// @import "wp-template/template";
+/** WordPress */
+// @import "wordpress/_classes";
+// @import "wordpress/_contact-form-7";
+// @import "wordpress/home";
+// @import "wordpress/page";
+// @import "wordpress/category";
+// @import "wordpress/single";
+// @import "wordpress/error404;
+// @import "wordpress/template";
