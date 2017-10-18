@@ -3,15 +3,14 @@
  */
 
 
-form {
-
-}
+form {}
 
 input[type="text"],
 input[type="email"],
 input[type="tel"],
 input[type="number"],
-//input[type="file"],
+input[type="file"],
+input[type="search"],
 textarea {
 	background: #fff;
 	border: 1px solid #ccc;
@@ -21,8 +20,8 @@ textarea {
 }
 
 select {
-	//-webkit-appearance: none;
-	//border-radius: 0;
+	// -webkit-appearance: none;
+	// border-radius: 0;
 	background: #fff;
 	border: 1px solid #ccc;
 	padding: 5px 10px;
