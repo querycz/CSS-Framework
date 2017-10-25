@@ -17,6 +17,11 @@ textarea {
 	padding: 5px 10px;
 	box-sizing: border-box;
 	width: 100%;
+	outline: 0;
+
+	// &::placeholder {
+	// 	color: $dark-beige;
+	// }
 }
 
 select {
