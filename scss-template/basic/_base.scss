@@ -8,11 +8,4 @@ body {
    // height: 100%;
 }
 
-body {
-	/**
-	 * Ošetření pro špatné zobrazovaní opakovaného pozadí
-	 * při menších rozlišení než wrap při fixním layout
-	 * (typicky v patičkách).
-	 */
-	/* min-width: 960px; */
-}
+body {}
