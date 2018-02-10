@@ -3,7 +3,7 @@
  */
 
 
-/** General framework variables */
+// General framework variables
 $font-family: Arial, sans-serif !default;
 $font-size: 16px !default;
 $line-height: 150% !default;
@@ -12,16 +12,9 @@ $font-color: #000 !default; // Default font color
 $p-margin: 20px 0 !default;
 
 
-/** Grid system variables */
-/**
- * For fixed (non-responsive) layout just
- */
+// Grid system variables
 $screen-sm: 1px !default;
 $screen-md: 768px !default;
-$screen-lg: 980px !default; // Also fixed size of container
-
-$grid-columns: 12 !default; // Number of available columns
+$screen-lg: 980px !default;
 $grid-gutter: 10px !default; // Inner padding on each side of a column to create gutters
-$grid-float-breakpoint: $screen-md !default; // Point at which the floats kick in and horizontally align columns
 $grid-row-bottom-margin: 20px !default; // Row bottom margin for all screen sizes
-$grid-col-bottom-margin: 20px !default; // Column bottom margin for screen size < @screen-sm

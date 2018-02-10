@@ -3,29 +3,21 @@
  */
 
 
-/** Container */
+// Container
 .container {
 	text-align: left;
 	padding: 0 $grid-gutter;
 	margin: 0 auto;
 	box-sizing: border-box;
-}
 
-@media only screen and (min-width: $screen-md) {
-	.container {
+	@media only screen and (min-width: $screen-md) {
 		margin: 0 auto;
 		max-width: $screen-lg;
 	}
-
-	.container-fixed {
-		margin: 0 auto;
-		max-width: none;
-		width: $screen-lg;
-	}
 }
 
 
-/** Row */
+// Row
 .row {
 	display: flex;
 	flex-wrap: wrap;
@@ -36,13 +28,7 @@
 	}
 }
 
-.row-no-bottom-margin,
-.row-no-margin {
-	margin-bottom: 0;
-}
-
-
-/** Col */
+// Column
 .col {
 	width: 100%;
 	box-sizing: border-box;

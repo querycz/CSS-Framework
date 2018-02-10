@@ -1,5 +1,5 @@
 /**
- * Basic core elements, classes and ids
+ * Basic  elements, classes and ids reset and normalize
  */
 
 
@@ -14,18 +14,6 @@ body {
 	text-align: center;
 	font: $font;
 	color: $font-color;
-
-	/**
-	 * Ošetření pro špatné zobrazovaní opakovaného pozadí
-	 * při menších rozlišení než wrap při fixním layout
-	 * (typicky v patičkách).
-	 */
-	/* min-width: 960px; */
-
-	/**
-	 * Nastavení velikosti fontu pro iOS webkit a MS prohlížeče
-	 * (typicky pro správné velikosti při responsivním layoutu).
-	 */
 	-webkit-text-size-adjust: 100%;
  	-ms-text-size-adjust: 100%;
  	@-ms-viewport { width: device-width; }
@@ -68,41 +56,19 @@ table {
 	}
 }
 
-.clearfix {
-	&:before,
-	&:after {
-    	content: " ";
-		display: table;
-	}
-
-	&:after {
-		clear: both;
-	}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li {
+	margin: 0;
+	padding: 0;
 }
 
-.clear-both {
-	clear: both;
-
-	/**
-	 * Někdy dobré doplnit - viz např. "hover bug" v Opeře.
-	 */
-	font-size: 0;
-	line-height: 0;
-
-	/**
-	 * IE 7 mívá problém, ale možno vyřešit obalením do samostatného
-	 * divu např. <div><div class="clear_both"></div></div>.
-	 */
-	height: 0;
-}
-
-.hide,
-.hidden {
-	display: none;
-}
-
-.hidden-md {
-	@media only screen and (max-width: $screen-md) {
-		display: none;
-	}
+ul,
+li {
+	//list-style-type: none;
 }
