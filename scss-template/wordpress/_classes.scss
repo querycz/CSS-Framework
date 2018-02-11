@@ -1,5 +1,5 @@
 /**
- * General WP classes
+ * General WP utilities
  */
 
 
@@ -8,7 +8,7 @@
 	margin: 0 auto;
 }
 
-.alignright	{
+.alignright {
 	float: right;
 	margin: 0 0 60px 60px;
 }
@@ -18,11 +18,11 @@
 	margin: 0 60px 60px 0;
 }
 
-.floatleft	{
+.floatleft {
 	float: left;
 }
 
-.floatright	{
+.floatright {
 	float: right;
 }
 
@@ -38,13 +38,6 @@
 	font-style: italic;
 	text-align: center;
 	color: red;
-	text-align: center;
-}
-
-img.aligncenter,
-img.alignright,
-img.alignleft {
-	//border: 3px solid #EEE;
 }
 
 // Gallery

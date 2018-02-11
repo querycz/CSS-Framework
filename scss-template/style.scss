@@ -5,44 +5,40 @@
  */
 
 
-/** Variables */
+// Variables
 @import "basic/_variables";
 
 
-/** @imports */
+// @imports
 @import "basic/_imports";
 
 
-/** @font-face */
+// @font-face
 @import "basic/_font-face";
 
 
-/** Mixins */
-@import "basic/_mixins";
-
-
-/** Base/core elements */
+// Base/core elements
 @import "basic/_base";
 
 
-/** Forms */
+// Forms
 @import "basic/_forms";
 
 
-/** Buttons */
+// Buttons
 @import "basic/_buttons";
 
 
-/** Modules */
+// Modules
 @import "modules/_header";
 @import "modules/_nav";
 @import "modules/_nav-mobile";
-@import "modules/_nav-mobile-toggle";
+@import "modules/_nav-toggle";
 @import "modules/_main";
 @import "modules/_footer";
 
 
-/** WordPress */
+// WordPress
 // @import "wordpress/_classes";
 // @import "wordpress/_contact-form-7";
 // @import "wordpress/home";

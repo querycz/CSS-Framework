@@ -43,31 +43,34 @@
 	padding-left: 0;
 }
 
+.text-left {
+	text-align: left;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.text-center {
+	text-align: center;
+}
+
 .clearfix {
-	&:before,
-	&:after {
-    	content: " ";
+	&::before,
+	&::after {
+		content: "";
 		display: table;
 	}
 
-	&:after {
+	&::after {
 		clear: both;
 	}
 }
 
 .clear-both {
 	clear: both;
-
-	/**
-	 * Někdy dobré doplnit - viz např. "hover bug" v Opeře.
-	 */
 	font-size: 0;
 	line-height: 0;
-
-	/**
-	 * IE 7 mívá problém, ale možno vyřešit obalením do samostatného
-	 * divu např. <div><div class="clear_both"></div></div>.
-	 */
 	height: 0;
 }
 

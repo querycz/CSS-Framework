@@ -14,15 +14,14 @@ body {
 	text-align: center;
 	font: $font;
 	color: $font-color;
-	-webkit-text-size-adjust: 100%;
- 	-ms-text-size-adjust: 100%;
- 	@-ms-viewport { width: device-width; }
+	text-size-adjust: 100%;
+	@-ms-viewport { width: device-width; }
 }
 
 header,
 footer,
-section,
 nav,
+section,
 article,
 aside {
 	margin: 0;
@@ -47,13 +46,15 @@ table {
 	border-spacing: 0;
 	width: 100%;
 
-	tr {
+	tr {}
 
-	}
+	td {}
+}
 
-	td {
-
-	}
+ul,
+li {
+	margin: 0;
+	padding: 0;
 }
 
 h1,
@@ -61,14 +62,46 @@ h2,
 h3,
 h4,
 h5,
-h6,
-ul,
-li {
+h6 {
 	margin: 0;
 	padding: 0;
+	font-weight: bold;
+	line-height: 100%;
 }
 
-ul,
-li {
-	//list-style-type: none;
+h1 {
+	font-size: $font-size + 10;
+}
+
+h2 {
+	font-size: $font-size + 6;
+}
+
+h3 {
+	font-size: $font-size + 4;
+}
+
+h4 {
+	font-size: $font-size + 2;
+}
+
+h5 {
+	font-size: $font-size + 10;
+}
+
+h6 {
+	font-size: $font-size + 10;
+}
+
+p {
+	padding: 0;
+	margin: $p-margin;
+}
+
+a {
+	color: inherit;
+
+	&:hover {
+		text-decoration: none;
+	}
 }
