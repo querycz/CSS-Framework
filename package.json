@@ -1,6 +1,6 @@
 {
 	"name": "css-framework",
-	"version": "4.0.14",
+	"version": "5.0.2",
 	"dependencies": {
 		"normalize.css": "latest"
 	}
