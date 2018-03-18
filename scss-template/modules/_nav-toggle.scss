@@ -40,29 +40,29 @@
 			background: red;
 		}
 	}
+}
 
-	&.opened {
-		color: red;
+.nav-toggle-opened {
+	color: red;
 
-		.nav-toggle-line {
-			&:nth-child(1) {
-				transform: rotate(45deg);
-				top: -7px;
-				left: 6px;
-				background: red;
-			}
+	.nav-toggle-line {
+		&:nth-child(1) {
+			transform: rotate(45deg);
+			top: -7px;
+			left: 6px;
+			background: red;
+		}
 
-			&:nth-child(2) {
-				width: 0%;
-				opacity: 0;
-			}
+		&:nth-child(2) {
+			width: 0%;
+			opacity: 0;
+		}
 
-			&:nth-child(3) {
-				transform: rotate(-45deg);
-				top: 25px;
-				left: 6px;
-				background: red;
-			}
+		&:nth-child(3) {
+			transform: rotate(-45deg);
+			top: 25px;
+			left: 6px;
+			background: red;
 		}
 	}
 }
