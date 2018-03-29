@@ -8,14 +8,17 @@ body {
 	height: 100%;
 }
 
-body {
-	margin: 0;
-	padding: 0;
-	text-align: center;
+html {
 	font: $font;
 	color: $font-color;
 	text-size-adjust: 100%;
 	@-ms-viewport { width: device-width; }
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	text-align: center;
 }
 
 header,
