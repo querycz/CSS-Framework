@@ -18,6 +18,7 @@ textarea {
 	box-sizing: border-box;
 	width: 100%;
 	outline: 0;
+	display: block;
 
 	&::placeholder {
 		color: #000;
