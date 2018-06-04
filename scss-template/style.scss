@@ -10,32 +10,32 @@
 
 
 // @imports
-@import "basic/_imports";
+@import "base/_imports";
 
 
 // @font-face
-@import "basic/_font-face";
+@import "base/_font-face";
 
 
-// Base/core elements
-@import "basic/_base";
+// Basic Core Elements
+@import "base/_basic";
 
 
 // Forms
-@import "basic/_forms";
+@import "base/_forms";
 
 
 // Buttons
-@import "basic/_buttons";
+@import "base/_buttons";
 
 
-// Modules
-@import "modules/_header";
-@import "modules/_nav";
-@import "modules/_nav-mobile";
-@import "modules/_nav-toggle";
-@import "modules/_main";
-@import "modules/_footer";
+// Components
+@import "components/_header";
+@import "components/_nav";
+@import "components/_nav-mobile";
+@import "components/_nav-toggle";
+@import "components/_main";
+@import "components/_footer";
 
 
 // WordPress
