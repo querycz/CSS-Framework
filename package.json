@@ -2,9 +2,8 @@
 	"name": "css-framework",
 	"version": "7.0.1",
 	"author": "Query <hello@query.cz> (https://www.query.cz)",
-	"description": "",
+	"description": "Just a basic CSS template framework",
 	"repository": "",
-	"private": true,
 	"dependencies": {
 		"normalize.css": "latest"
 	}
