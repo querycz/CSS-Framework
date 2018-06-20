@@ -6,6 +6,6 @@
 	"repository": "",
 	"private": true,
 	"dependencies": {
-		"bootstrap": "latest"
+		"systematize": "latest"
 	}
 }
