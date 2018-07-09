@@ -9,8 +9,8 @@ $color: #ff5800;
 
 // General framework variables
 $font-family: Arial, sans-serif;
-$font-size: 16px;
-$line-height: 150%;
+$font-size: 62.5%; // 10px default for comfortable using of rem units (e.g. 1rem = 10px, 1.6rem = 16px)
+$line-height: 1.5;
 $font: #{$font-size} / #{$line-height} $font-family;
 $font-color: #000;
 $p-margin: 20px 0;
