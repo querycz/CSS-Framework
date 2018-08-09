@@ -1,10 +1,10 @@
 {
 	"name": "css-framework",
-	"version": "7.0.1",
+	"version": "7.1.2",
 	"author": "Query <hello@query.cz> (https://www.query.cz)",
 	"description": "Just a basic CSS template framework",
-	"repository": "",
+	"repository": "https://github.com/querycz/css-framework",
 	"dependencies": {
-		"normalize.css": "latest"
+		"normalize.css": "^8.0.0"
 	}
 }
