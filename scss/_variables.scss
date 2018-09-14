@@ -6,8 +6,9 @@
 // General framework variables
 $font-family: Arial, sans-serif !default;
 $font-size: 62.5% !default;
+$font-size-default: 1.6rem !default;
 $line-height: 1.5 !default;
-$font: #{$font-size} / #{$line-height} $font-family !default;
+$font: #{$font-size-default} / #{$line-height} $font-family !default;
 $font-color: #000 !default; // Default font color
 $p-margin: 20px 0 !default;
 
