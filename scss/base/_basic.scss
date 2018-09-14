@@ -9,7 +9,7 @@ body {
 }
 
 html {
-	font: $font;
+	font: 62.5% / #{$line-height} $font-family;
 	color: $font-color;
 	text-size-adjust: 100%;
 	@-ms-viewport { width: device-width; }
