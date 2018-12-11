@@ -2,23 +2,25 @@
  * Variables
  */
 
-
 // Custom variables
-$color: #ff5800;
+// $color: #ff5800;
 
 
-// General framework variables
+// General variables
 $font-family: Arial, sans-serif;
-$font-size: 1.6rem; // html has 62.5 % = 10px default for comfortable using of rem units (e.g. 1rem = 10px, 1.6rem = 16px)
+$font-size: 1.6rem; // html has 62.5 % = 10px default for comfortable using of rem units (e.g. 1rem = 10px, 1.6rem = 16px, etc.)
 $line-height: 1.5;
 $font-color: #000;
 $p-margin: 20px 0;
 $assets: "assets";
 
 
-// Grid system variables
-$screen-sm: 375px;
-$screen-md: 768px; // 767 for portrait display on iPad
-$screen-lg: 1180px;
-$grid-gutter: 10px;
-$grid-row-bottom-margin: 20px;
+// Screen sizes variables
+$screen-sm: 600px;
+$screen-md: 900px; // If 768 px used, rather use 767 for portrait display on iPad
+$screen-lg: 1200px;
+
+// Container variables
+$container-breakpoint: $screen-md;
+$container-max-width: $screen-lg;
+$container-gutter: 10px;  // Inner padding on each side of a column to create gutters

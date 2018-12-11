@@ -2,18 +2,20 @@
  * Variables
  */
 
-
 // General framework variables
 $font-family: Arial, sans-serif !default;
 $font-size: 1.6rem !default;
 $line-height: 1.5 !default;
-$font-color: #000 !default; // Default font color
+$font-color: #000 !default;
 $p-margin: 20px 0 !default;
 
 
-// Grid system variables
-$screen-sm: 1px !default;
-$screen-md: 768px !default;
-$screen-lg: 980px !default;
-$grid-gutter: 10px !default; // Inner padding on each side of a column to create gutters
-$grid-row-bottom-margin: 20px !default; // Row bottom margin for all screen sizes
+// Screen sizes variables
+$screen-sm: 600px !default;
+$screen-md: 900px !default;
+$screen-lg: 1200px !default;
+
+// Container variables
+$container-breakpoint: $screen-md !default;
+$container-max-width: $screen-lg !default;
+$container-gutter: 10px !default;
