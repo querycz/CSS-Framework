@@ -2,7 +2,6 @@
  * Mobile Navigation
  */
 
-
 .nav-mobile {
 	.nav-list {}
 
@@ -10,7 +9,7 @@
 
 	.nav-link {}
 
-	// Skryj zobrazenou navigaci při rozšíření obrazovky > @screen-md, ev. + 1
+	// Hide nav if screen size > @screen-md, ev. + 1
 	@media only screen and (min-width: $screen-md) {
 		display: none !important;
 	}

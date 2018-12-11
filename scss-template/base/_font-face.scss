@@ -2,21 +2,14 @@
  * @font-face
  */
 
-
-// Font Awesome
-// $fa-font-path: "assets/font/fontawesome";
-// @import "../../node_modules/font-awesome/scss/font-awesome";
-
-
-// Custom @font-face
-/*@font-face {
-	font-family: 'Font';
-	src: url('fnt/Font.eot');
-	src: local('☺'),
-		url('fnt/Font.woff') format('woff'),
-		url('fnt/Font.otf') format('opentype'),
-		url('fnt/Font.ttf') format('truetype'),
-		url('fnt/Font.svg#webfont') format('svg');
-	font-weight: normal;
-	font-style: normal;
-}*/
+// @font-face {
+// 	font-family: 'Font Name';
+// 	src: url('#{$assets}/font/Font.eot');
+// 	src: local('☺'),
+// 		url('#{$assets}/font/Font.woff') format('woff'),
+// 		url('#{$assets}/font/Font.otf') format('opentype'),
+// 		url('#{$assets}/font/Font.ttf') format('truetype'),
+// 		url('#{$assets}/font/Font.svg#webfont') format('svg');
+// 	font-weight: normal;
+// 	font-style: normal;
+// }
