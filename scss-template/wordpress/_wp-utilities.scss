@@ -147,3 +147,46 @@
 	font-size: 15px;
 	font-style: italic;
 }
+
+.wp-block-columns {
+	@media only screen and (min-width: $screen-md) {
+		display: flex;
+	}
+
+	&.has-2-columns {
+		.wp-block-column {
+			@media only screen and (min-width: $screen-md) {
+				width: 50%;
+			}
+		}
+	}
+
+	&.has-3-columns {
+		.wp-block-column {
+			@media only screen and (min-width: $screen-md) {
+				width: percentage(1/3);
+			}
+		}
+	}
+}
+
+.wp-block-column {
+	box-sizing: border-box;
+	margin-bottom: 40px;
+
+	@media only screen and (min-width: $screen-md) {
+		margin-bottom: 0;
+	}
+}
+
+.wp-block-image .aligncenter {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.wp-block-image .aligncenter,
+.wp-block-image .alignleft,
+.wp-block-image .alignright,
+.wp-block-image.is-resized {
+	display: table;
+}
