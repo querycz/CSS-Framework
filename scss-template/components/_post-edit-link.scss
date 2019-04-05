@@ -1,0 +1,18 @@
+/**
+ * Post Edit Link
+ */
+
+ .post-edit-link,
+ .edit-link a {
+	 @extend .button;
+	 margin: 20px 0;
+	 font-size: 1.6rem;
+	 padding: 6px 20px;
+	 background-color: red;
+
+	 &:hover {
+		 background: transparent;
+		 background-color: $blue;
+	 }
+ }
+
