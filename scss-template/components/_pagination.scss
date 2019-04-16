@@ -1,0 +1,38 @@
+/**
+ * Pagination Extended
+ */
+
+.pagination-extended {
+	text-align: center;
+	margin: 40px 0;
+}
+
+.pagination-extended-item {
+	display: inline;
+	margin: 0 1px;
+
+	a {
+		text-decoration: none;
+		display: inline-block;
+		padding: 5px 15px 2px;
+		background: #f9f9f9;
+		color: #151515;
+		transition: .6s;
+		line-height: 1.6;
+		font-size: 1.8rem;
+
+		&:hover {
+			background: $blue;
+			color: #fff;
+			transform: scale(1.05);
+		}
+	}
+}
+
+.pagination-extended-active {
+	a {
+		padding: 10px 20px 6px;
+		background: $blue;
+		color: #fff;
+	}
+}
