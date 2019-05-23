@@ -13,13 +13,14 @@ $line-height: 1.5;
 $font-color: #000;
 $p-margin: 20px 0;
 $assets: "assets";
-// $assets: "/wp-content/themes/THEME/assets";
+// $assets: "/app/themes/THEME/assets"; // Full path is useful when using custom font-face and critical CSS to resolve path
 
 
 // Screen sizes variables
 $screen-sm: 600px;
 $screen-md: 900px; // If 768 px used, rather use 767 for portrait display on iPad
 $screen-lg: 1200px;
+
 
 // Container variables
 $container-breakpoint: $screen-md;
