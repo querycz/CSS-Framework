@@ -22,7 +22,7 @@
 		font-size: 1.8rem;
 
 		&:hover {
-			background: $blue;
+			background: blue;
 			color: #fff;
 			transform: scale(1.05);
 		}
@@ -32,7 +32,7 @@
 .pagination-extended-active {
 	a {
 		padding: 10px 20px 6px;
-		background: $blue;
+		background: blue;
 		color: #fff;
 	}
 }
