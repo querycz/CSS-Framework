@@ -26,22 +26,5 @@
 @import "base/_buttons";
 
 
-// Components
-@import "components/_header";
-@import "components/_nav";
-@import "components/_nav-mobile";
-@import "components/_hamburger";
-@import "components/_main";
-@import "components/_footer";
-@import "components/_post-edit-link";
-// @import "components/_pagination";
-
-
-// WordPress
-// @import "wordpress/_wp-utilities";
-// @import "wordpress/home";
-// @import "wordpress/page";
-// @import "wordpress/category";
-// @import "wordpress/single";
-// @import "wordpress/error404";
-// @import "wordpress/template";
+// WordPress Utilities
+@import "base/_wp-utilities";

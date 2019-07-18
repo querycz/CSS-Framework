@@ -1,8 +1,8 @@
 {
 	"name": "css-framework",
-	"version": "8.1.2",
+	"version": "9.0.0",
 	"author": "Query <hello@query.cz> (https://www.query.cz)",
-	"description": "Just a basic CSS template framework",
+	"description": "Just a basic CSS framework",
 	"repository": "https://github.com/querycz/css-framework",
 	"dependencies": {
 		"normalize.css": "^8.0.1"
