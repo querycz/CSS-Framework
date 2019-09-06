@@ -1,7 +1,5 @@
 /**
  * CSS framework
- *
- * Author: Query (www.query.cz)
  */
 
 // Variables
@@ -9,16 +7,16 @@
 
 
 // @imports
-@import "base/_imports";
+@import "global/_imports";
 
 
 // Utilities
-@import "base/_utilities";
+@import "global/_utilities";
 
 
 // Basic global
-@import "base/_basic";
+@import "global/_base";
 
 
 // Container
-@import "base/_container";
+@import "global/_container";

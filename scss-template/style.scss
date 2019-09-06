@@ -7,27 +7,27 @@
 
 
 // @imports
-@import "base/_imports";
+@import "global/_imports";
 
 
 // @font-face
-@import "base/_font-face";
+@import "global/_font-face";
 
 
-// Basic Core Elements
-@import "base/_basic";
+// Base Core Elements
+@import "global/_base";
 
 
 // Forms
-@import "base/_forms";
+@import "global/_forms";
 
 
 // Buttons
-@import "base/_buttons";
+@import "global/_buttons";
 
 // Contact Form 7
-// @import "base/_cf7";
+// @import "global/_cf7";
 
 
 // WordPress Utilities
-@import "base/_wp-utilities";
+@import "global/_wp-utilities";
